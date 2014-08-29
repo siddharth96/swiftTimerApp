@@ -26,14 +26,14 @@ class SavedTimesTableViewController: UITableViewController {
     override func tableView(tableView: UITableView!, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete method implementation.
         // Return the number of rows in the section.
-        return 3
+        return savedTimesArray.count
     }
 
     override func tableView(tableView: UITableView!, cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell! {
         let cell = tableView.dequeueReusableCellWithIdentifier("timeCell", forIndexPath: indexPath) as UITableViewCell
 
         // Configure the cell...
-        cell.textLabel.text = "I am a cell"
+        cell.textLabel.text = savedTimesArray[indexPath.row]
 
         return cell
     }

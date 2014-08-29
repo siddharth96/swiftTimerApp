@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var stopButton: UIButton!
     @IBOutlet weak var timeLabel: UILabel!
     var timer = NSTimer()
+    var timeArray = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +23,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func didPressStartButton(sender: AnyObject) {
-        self.timeLabel.text = "Running!"
+        self.timeLabel.text = "0"
         self.timer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: "updateTimeLabel", userInfo: NSDate(), repeats: true)
         self.startButton.hidden = true
         self.stopButton.hidden = false
@@ -30,8 +31,6 @@ class ViewController: UIViewController {
     
     @IBAction func didPressStopButton(sender: AnyObject) {
         self.timer.invalidate()
-        self.stopButton.hidden = true
-        self.startButton.hidden = false
     }
     
     func updateTimeLabel() {
@@ -41,6 +40,16 @@ class ViewController: UIViewController {
         } else {
             self.timeLabel.text = String(format: "%.0f:%.2f", elapsed / 60, elapsed % 60)
         }
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue!, sender: AnyObject!) {
+        var currentTime = self.timeLabel.text
+        self.timeLabel.text = "0"
+        self.stopButton.hidden = true
+        self.startButton.hidden = false
+        self.timeArray.append(currentTime)
+        let destinationViewController = segue.destinationViewController as SavedTimesTableViewController
+        destinationViewController.savedTimesArray = self.timeArray
     }
 }
 
