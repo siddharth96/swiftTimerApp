@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A2AF9FD1-A9DF-48FD-84D7-B26F5B7F4824</string>
+	<key>IDESourceControlProjectName</key>
+	<string>swiftTimerAppBeta</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D1C331E16EC36DBC657689332C5EB8787501019F</key>
+		<string>github.com:siddharth96/swiftTimerApp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>swiftTimerAppBeta.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D1C331E16EC36DBC657689332C5EB8787501019F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:siddharth96/swiftTimerApp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D1C331E16EC36DBC657689332C5EB8787501019F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D1C331E16EC36DBC657689332C5EB8787501019F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>swiftTimerAppBeta</string>
+		</dict>
+	</array>
+</dict>
+</plist>

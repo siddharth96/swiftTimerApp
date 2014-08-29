@@ -20,6 +20,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         self.startButton.layer.cornerRadius = 5.0
         self.stopButton.layer.cornerRadius = 5.0
+        self.navigationController.navigationBar.setBackgroundImage(UIImage(named: "transparentNavBar"),
+            forBarMetrics: UIBarMetrics.Default)
     }
     
     @IBAction func didPressStartButton(sender: AnyObject) {

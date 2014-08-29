@@ -13,6 +13,7 @@ class SavedTimesTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.tableView.backgroundView = UIImageView(image: UIImage(named: "blurPurple"))
     }
 
     // MARK: - Table view data source
@@ -34,7 +35,7 @@ class SavedTimesTableViewController: UITableViewController {
 
         // Configure the cell...
         cell.textLabel.text = savedTimesArray[indexPath.row]
-
+        cell.backgroundColor = UIColor.clearColor()
         return cell
     }
 }
