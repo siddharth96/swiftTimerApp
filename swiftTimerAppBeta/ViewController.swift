@@ -9,17 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
-                            
+    @IBOutlet weak var startButton: UIButton!
+    @IBOutlet weak var stopButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.startButton.layer.cornerRadius = 5.0
+        self.stopButton.layer.cornerRadius = 5.0
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func didPressStartButton(sender: AnyObject) {
+        println("The start button was pressed ")
     }
-
-
 }
 
