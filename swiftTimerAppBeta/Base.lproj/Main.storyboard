@@ -65,7 +65,7 @@
             </objects>
             <point key="canvasLocation" x="766" y="319"/>
         </scene>
-        <!--Saved Times Table View Controller-->
+        <!--Saved Times-->
         <scene sceneID="i0v-J4-pV9">
             <objects>
                 <tableViewController id="mq5-OJ-fpp" customClass="SavedTimesTableViewController" customModule="swiftTimerAppBeta" customModuleProvider="target" sceneMemberID="viewController">
@@ -74,7 +74,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="timeCell" textLabel="WcK-RG-CmF" rowHeight="100" style="IBUITableViewCellStyleDefault" id="zPi-iq-Hun">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="timeCell" textLabel="WcK-RG-CmF" rowHeight="100" style="IBUITableViewCellStyleDefault" id="zPi-iq-Hun">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zPi-iq-Hun" id="MFK-Lk-Ebo">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -94,7 +94,7 @@
                             <outlet property="delegate" destination="mq5-OJ-fpp" id="gYG-aA-92g"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="H6d-63-3It"/>
+                    <navigationItem key="navigationItem" title="Saved Times" id="H6d-63-3It"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KI6-bF-L8C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -109,6 +109,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
