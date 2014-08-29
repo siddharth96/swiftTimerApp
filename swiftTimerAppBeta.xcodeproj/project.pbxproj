@@ -12,6 +12,7 @@
 		D89B7A4E19B0817000110B6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89B7A4C19B0817000110B6B /* Main.storyboard */; };
 		D89B7A5019B0817100110B6B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D89B7A4F19B0817100110B6B /* Images.xcassets */; };
 		D89B7A5C19B0817100110B6B /* swiftTimerAppBetaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89B7A5B19B0817100110B6B /* swiftTimerAppBetaTests.swift */; };
+		D89B7A6619B0B22F00110B6B /* SavedTimesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89B7A6519B0B22F00110B6B /* SavedTimesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		D89B7A5519B0817100110B6B /* swiftTimerAppBetaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftTimerAppBetaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D89B7A5A19B0817100110B6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D89B7A5B19B0817100110B6B /* swiftTimerAppBetaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftTimerAppBetaTests.swift; sourceTree = "<group>"; };
+		D89B7A6519B0B22F00110B6B /* SavedTimesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedTimesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				D89B7A4819B0817000110B6B /* AppDelegate.swift */,
 				D89B7A4A19B0817000110B6B /* ViewController.swift */,
+				D89B7A6519B0B22F00110B6B /* SavedTimesTableViewController.swift */,
 				D89B7A4C19B0817000110B6B /* Main.storyboard */,
 				D89B7A4F19B0817100110B6B /* Images.xcassets */,
 				D89B7A4619B0817000110B6B /* Supporting Files */,
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D89B7A6619B0B22F00110B6B /* SavedTimesTableViewController.swift in Sources */,
 				D89B7A4B19B0817000110B6B /* ViewController.swift in Sources */,
 				D89B7A4919B0817000110B6B /* AppDelegate.swift in Sources */,
 			);
@@ -397,6 +401,7 @@
 				D89B7A6119B0817100110B6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D89B7A6219B0817100110B6B /* Build configuration list for PBXNativeTarget "swiftTimerAppBetaTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +410,7 @@
 				D89B7A6419B0817100110B6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
